@@ -32,5 +32,10 @@
   },
   "dependencies": {
     "mapbox-glsl-optimizer": "^0.1.3"
-  }
+  },
+  "files": [
+    "lib/",
+    "tasks/",
+    "LICENSE"
+  ]
 }
