@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
     "use strict";
 
-    var sourceFiles = grunt.file.expand("task/**/*.js").concat(
+    var sourceFiles = grunt.file.expand("tasks/**/*.js").concat(
         grunt.file.expand("lib/**/*.js")
     );
 
