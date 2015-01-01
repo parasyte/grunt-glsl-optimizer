@@ -1,0 +1,15 @@
+# Grunt files
+.grunt
+
+# Temp files
+.DS_Store
+Thumbs.db
+Desktop.ini
+npm-debug.log
+
+# Vim swap files
+*.sw*
+
+# Project specific ignore
+node_modules/
+!.placeholder

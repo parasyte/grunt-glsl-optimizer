@@ -1,0 +1,36 @@
+{
+  "name": "grunt-glsl-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize your GLSL shaders!",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parasyte/grunt-glsl-optimizer.git"
+  },
+  "keywords": [
+    "glsl-optimizer",
+    "webgl",
+    "optimize",
+    "glsl",
+    "shaders"
+  ],
+  "author": {
+    "name": "Jay Oster",
+    "email": "jay@kodewerx.org",
+    "url": "http://www.kodewerx.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parasyte/grunt-glsl-optimizer/issues"
+  },
+  "homepage": "https://github.com/parasyte/grunt-glsl-optimizer",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0"
+  },
+  "dependencies": {
+    "mapbox-glsl-optimizer": "^0.1.3"
+  }
+}
