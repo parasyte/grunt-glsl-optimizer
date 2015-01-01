@@ -13,5 +13,5 @@ module.exports = function (grunt) {
         });
     }
 
-    grunt.registerMultiTask("glsl-optimizer", "Optimize your GLSL shaders!", task);
+    grunt.registerMultiTask("glslOptimizer", "Optimize your GLSL shaders!", task);
 };

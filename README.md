@@ -15,7 +15,7 @@ module.exports = function (grunt) {
   "use strict";
 
   grunt.initConfig({
-    "glsl-optimizer" : {
+    glslOptimizer : {
       dist : {
         files : [
           {
@@ -35,7 +35,7 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks("grunt-glsl-optimizer");
 
-  grunt.registerTask("default", "glsl-optimizer");
+  grunt.registerTask("default", "glslOptimizer");
 };
 
 ```
